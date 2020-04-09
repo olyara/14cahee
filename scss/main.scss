@@ -227,6 +227,11 @@
         box-sizing: border-box;
       }
 
+      .services_caption1 {
+        @extend .services_caption;
+        padding: 20px 0;
+      }
+
       .services_icon {
         background-color: #fff;
         width: 100px;
@@ -712,7 +717,13 @@
     .services_features .services_item {
       .services_caption {
         width: 166px;
+        padding: 38px 0;
+        font-size: 16px;
+      }
+      .services_caption1 {
+        width: 166px;
         padding: 15px 0;
+        font-size: 16px;
       }
     }
   }
