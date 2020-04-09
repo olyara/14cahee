@@ -337,8 +337,8 @@ h1, h2 {
 
 .services_wrapper .services_features .services_item .services_icon svg {
   padding: 23px;
-  width: 54px;
-  height: 54px;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .services_wrapper .services_title {
